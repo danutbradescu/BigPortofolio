@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    .text-about {
+      flex: 1;
+      padding-right: 20px;
+  
+      h1 {
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 10px;
+  
+        span {
+          color: #007bff;
+          font-weight: bold;
+        }
+      }
+  
+      p {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+    }
+  
+    .imag-about {
+      flex: 1;
+      text-align: right;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+  
